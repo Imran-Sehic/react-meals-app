@@ -1,0 +1,22 @@
+.Container {
+    padding: 10px;
+    margin: 20px;
+    background-color: aliceblue;
+    border: 1px solid rgb(176, 250, 250);
+    border-radius: 15px;
+}
+
+.Container > ul {
+    display: flex;
+    align-items: center;
+}
+
+.Container > ul > li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.Container > ul > li > img {
+    border-radius: 5px;
+    width: 70px;
+}
